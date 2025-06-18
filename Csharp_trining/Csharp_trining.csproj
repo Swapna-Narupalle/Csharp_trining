@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>myfirstProgram</StartupObject>
+    <StartupObject>sizesof_DT</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data_types\minmax.cs" />
+    <Compile Include="Data_types\numeric.cs" />
+    <Compile Include="Data_types\sizeofdatatypes.cs" />
     <Compile Include="myprogram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
