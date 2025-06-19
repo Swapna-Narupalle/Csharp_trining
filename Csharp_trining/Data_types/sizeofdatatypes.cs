@@ -16,5 +16,24 @@ class sizesof_DT
         Console.WriteLine($"Size of decimal is: {sizeof(decimal)} bytes");
         Console.WriteLine($"Size of Character: {sizeof(char)}");
         Console.WriteLine($"Size of Bool: {sizeof(bool)}");
+
+
+
+        //bool
+        bool isStudent = true;
+        Console.WriteLine($"{isStudent}");
+
+
+        //char
+        char grade = 'A';
+        Console.WriteLine(grade);
+
+
+        //string
+        string Name = "Swapna";
+        Console.WriteLine("Name is: " + Name);
     }
+
+
+
 }
