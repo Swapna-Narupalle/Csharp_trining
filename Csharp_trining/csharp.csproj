@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Foreachloops</StartupObject>
+    <StartupObject>Conditionalstatements_switch</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="conditionals\if.cs" />
+    <Compile Include="conditionals\switch.cs" />
     <Compile Include="Data_types\conversions.cs" />
     <Compile Include="Data_types\foreach.cs" />
     <Compile Include="Data_types\minmax.cs" />
