@@ -110,5 +110,43 @@ class Conditionalstatements_switch
                 Console.WriteLine("Fail");
                 break;
         }
+
+        
+
+
+
+
+        Console.WriteLine("enter a role of employee");
+        string role = Console.ReadLine();
+        string package;
+        switch (role)
+        {
+            case "fresher":
+                Console.WriteLine("enter the location");
+                string location = Console.ReadLine();
+                if (location == "India")
+                {
+                    package = "3 LPA";
+                }
+                else if (location == "Amerika")
+                {
+                    package = "5 LPA";
+                }
+                else
+                {
+                    package = "location is not available pls enter either India or Amerika";
+                }
+                break;
+            case "Software_Engineer":
+                package = "10LPA";
+                break;
+            default:
+                package = "No package";
+                break;
+        }
+        Console.WriteLine($"package is: {package}");
+                
+        
+
     }
 }
