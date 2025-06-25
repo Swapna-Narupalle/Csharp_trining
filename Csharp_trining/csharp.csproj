@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Whileloop</StartupObject>
+    <StartupObject>Methodwith_returntypeparameters</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,10 @@
     <Compile Include="Data_types\string.cs" />
     <Compile Include="Data_types\Var&amp;Dynamic.cs" />
     <Compile Include="loops\while.cs" />
+    <Compile Include="methods\1methods.cs" />
+    <Compile Include="methods\methodswithreturntype.cs" />
+    <Compile Include="methods\methodwithpara.cs" />
+    <Compile Include="methods\mtdwithreturnpara.cs" />
     <Compile Include="myprogram.cs" />
     <Compile Include="operators\Arithmetic.cs" />
     <Compile Include="operators\comparison.cs" />
