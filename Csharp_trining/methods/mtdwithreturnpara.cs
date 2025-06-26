@@ -8,7 +8,7 @@ class Methodwith_returntypeparameters
         Console.WriteLine(aboutMovie);
     }
 
-    static string Method1(string movie, ulong collection)
+    static dynamic Method1(string movie, ulong collection)
     {
         return ($"{movie} collected {collection} profit in worldwide");
     }
