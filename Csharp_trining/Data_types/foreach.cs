@@ -3,7 +3,11 @@
 
 class Foreachloops
 {
-    class Student { public string Name; public int Age; }
+    class Student
+    { 
+        public string Name;
+        public int Age;
+    }
 
     static void Main()
     {
@@ -79,8 +83,16 @@ class Foreachloops
 
       //object
       object[] students = {
-            new Student { Name = "Swapna", Age = 21 },
-            new Student { Name = "Mouni", Age = 22 }
+            new Student
+            { 
+                Name = "Swapna",
+                Age = 21 
+            },
+            new Student
+            {
+                Name = "Mouni", 
+                Age = 22 
+            }
         };
 
         foreach (var obj in students)

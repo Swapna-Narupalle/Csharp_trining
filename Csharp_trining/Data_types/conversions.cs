@@ -24,7 +24,7 @@ class Conversiontypes
 
 
 
-        //explicit conversions
+        //explicit conversions: To convert Large Datatype into Small Datatype
         int num = 20000;
         ulong updatednum = (ulong)num;
         Console.WriteLine($"value is: {updatednum}");
@@ -64,11 +64,12 @@ class Conversiontypes
 
 
         //value type numeric types
-        string nullbaleString = null;
-        int output = Convert.ToInt32(nullbaleString);
+        string nullableString = null;
+        Console.WriteLine($"string: {nullableString}");
+        int output = Convert.ToInt32(nullableString);
         Console.WriteLine($"value: {output}");//0
         Console.WriteLine($"type: {output.GetType()}");
-
+        //int a = null; we cannot assign null into ineger. but we can Define null into string after we convert string type into int.
 
         DateTime datetime = DateTime.Now;
         Console.WriteLine(datetime.ToString());

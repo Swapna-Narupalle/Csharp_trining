@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SoftwareOffice</StartupObject>
+    <StartupObject>Conditionalstatements_switch</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,10 @@
     <Compile Include="Data_types\string.cs" />
     <Compile Include="Data_types\Var&amp;Dynamic.cs" />
     <Compile Include="debugging\debugging1.cs" />
+    <Compile Include="debugging\debugging2.cs" />
+    <Compile Include="debugging\practice.cs" />
+    <Compile Include="loops\do-While.cs" />
+    <Compile Include="loops\forloop.cs" />
     <Compile Include="loops\while.cs" />
     <Compile Include="methods\1methods.cs" />
     <Compile Include="methods\2parawithreturn.cs" />

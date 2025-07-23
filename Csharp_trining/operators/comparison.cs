@@ -6,6 +6,20 @@ class Comparisonoperators
     static void Main()
     {
         //comparison operators: ==, !=, <, <=, >, >=
+
+        bool x = true;
+        bool y = false;
+
+        bool IsEqual = 5 == 5;
+        bool IsNotEqual = 4 != 5;
+        bool IsGreaterOrEqual = 6 >= 7;
+        bool IsLessOrEqual = 7 <= 7;
+        bool IsGreater = 8 > 8;
+        bool IsLess = 9 < 9;
+
+        Console.WriteLine("***************Comparison Operators**************");
+        Console.WriteLine($"IsEqual is {IsEqual}, IsNotEqual is {IsNotEqual}, IsGreaterOrEqual is {IsGreaterOrEqual}, IsLessOrEqual is {IsLessOrEqual}, IsGreater is {IsGreater}, IsLesser is {IsLess}");
+
         int a = 5, b = 3;
         Console.WriteLine($"a={a} and b={b}");
         Console.WriteLine($"a==b: {a == b}");

@@ -76,9 +76,10 @@ class Stringdatatype
 
 
         string Mailid = "swapnan@gmain.com";
-        bool isequals = Mailid.Equals("swapna@gmail");
+        //bool isequals = Mailid.Equals("swapna@gmail");
+        bool isequals = Mailid.Contains("swapna@gmail");
         Console.WriteLine(isequals);
-
+       
 
         Console.WriteLine("Please enter your email id");
         string eMailid = Console.ReadLine();
@@ -102,7 +103,7 @@ class Stringdatatype
         string information = string.Format("{0} is a software engineer with {1} years of experiance", employeeName, employeeexperiance);
         Console.WriteLine(information);
 
-
+        
         //palindrome
         string name = "Swapna";
         string reverseName = new string(name.Reverse().ToArray());
@@ -127,7 +128,23 @@ class Stringdatatype
 
 
 
+        //Concat
+        string nameFull = "Divya" + " " + "Bandike";
+        Console.WriteLine(nameFull);
 
+
+        //With Concat Method
+        string a = "  Divya";
+        string b = "Bandike";
+        string c = "  Venkata";
+        string fullName = string.Concat(b, c, a);
+        Console.WriteLine(fullName);
+
+
+        //Alternate Method
+
+        string Name1 = string.Concat("Kavya", " ", "Bandike");
+        Console.WriteLine(Name1);
 
 
 

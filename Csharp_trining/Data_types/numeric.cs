@@ -5,7 +5,7 @@ class numeric_Datatypes
 {
     static void Main()
     {
-        //Non floating data types
+        //1. Non floating data types
 
         //byte (Range: 0 to 255)
         byte experience = 5;
@@ -43,7 +43,7 @@ class numeric_Datatypes
 
 
 
-        //floating data types
+        //2. floating data types
 
         // float: 7 - digit precision, suffix 'f' required
         float height = 5.9f;

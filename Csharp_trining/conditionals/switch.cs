@@ -8,7 +8,9 @@ class Conditionalstatements_switch
         //switch case
 
         //day of the week
-        int day = 3;
+        //int day = 3;
+        Console.WriteLine("Enter day number");
+        int day = int.Parse(Console.ReadLine());
 
         switch (day)
         {
@@ -40,8 +42,10 @@ class Conditionalstatements_switch
 
 
         //vowel or consonent
-        char ch = 'e';
-
+        //char ch = 'e';
+        Console.WriteLine("Enter a letter..");
+        char ch = Console.ReadKey().KeyChar;
+        Console.WriteLine("");
         switch (ch)
         {
             case 'a':
@@ -58,32 +62,43 @@ class Conditionalstatements_switch
 
 
         //month name from number 
-        int month = 4;
-
-        switch (month)
+        //int month = 4;
+        Console.WriteLine("Enter Month number");
+        string input = Console.ReadLine();
+        if (int.TryParse(input, out int month))
         {
-            case 1:
-                Console.WriteLine("January");
-                break;
-            case 2:
-                Console.WriteLine("February");
-                break;
-            case 3:
-                Console.WriteLine("March");
-                break;
-            case 4:
-                Console.WriteLine("April");
-                break;
-            case 5:
-                Console.WriteLine("May");
-                break;
-            case 6:
-                Console.WriteLine("June");
-                break;
-            default:
-                Console.WriteLine("Invalid month");
-                break;
+            switch (month)
+            {
+                case 1:
+                    Console.WriteLine("January");
+                    break;
+                case 2:
+                    Console.WriteLine("February");
+                    break;
+                case 3:
+                    Console.WriteLine("March");
+                    break;
+                case 4:
+                    Console.WriteLine("April");
+                    break;
+                case 5:
+                    Console.WriteLine("May");
+                    break;
+                case 6:
+                    Console.WriteLine("June");
+                    break;
+                default:
+                    Console.WriteLine("Invalid month");
+                    break;
+            }
         }
+        else
+        {
+            Console.WriteLine("Please enter a valid number");
+        }
+        
+
+
 
         //Grade based on marks
         int marks = 86;
@@ -111,7 +126,7 @@ class Conditionalstatements_switch
                 break;
         }
 
-        
+
 
 
 
@@ -145,8 +160,8 @@ class Conditionalstatements_switch
                 break;
         }
         Console.WriteLine($"package is: {package}");
-                
-        
+
+
 
     }
 }
