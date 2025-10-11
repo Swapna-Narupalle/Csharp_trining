@@ -10,7 +10,7 @@ class Stringdatatype
         Console.WriteLine(studentName);//Swapna
 
         string employee = "\"Swapna\""; 
-        Console.WriteLine(employee);//Swapna
+        Console.WriteLine(employee);//"Swapna"
 
 
         //string interpolation
@@ -103,10 +103,10 @@ class Stringdatatype
         string information = string.Format("{0} is a software engineer with {1} years of experiance", employeeName, employeeexperiance);
         Console.WriteLine(information);
 
-        
+
         //palindrome
-        string name = "Swapna";
-        string reverseName = new string(name.Reverse().ToArray());
+        string name = "Mom";
+        string reverseName = new string(name.Reverse().ToArray()); //StringComparison.OrdinalIgnoreCase
 
         if (name.Equals(reverseName, StringComparison.OrdinalIgnoreCase))
         {
